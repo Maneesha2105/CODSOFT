@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Maneesha Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #f39eb3;
+      padding: 30px;
+      text-align: center;
+      border-radius: 10px;
+      border: 2px solid black;
+    }
+
+    header h1 {
+      color: #d63384;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-style: italic;
+    }
+
+    section {
+      margin: 40px 0;
+      border: 2px solid black;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: #ffd6e6;
+    }
+
+    .section-heading {
+      background-color: #f39eb3;
+      padding: 15px 20px;
+      font-size: 1.8em;
+      color: white;
+      font-weight: bold;
+      border-bottom: 1.5px solid black;
+    }
+
+    .section-content {
+      padding: 20px;
+    }
+
+    #about img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    #skills ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .project {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .project-image-wrapper {
+      width: 100%;
+      max-width: 700px;
+      margin: 0 auto;
+      border: 2px solid black;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: black;
+    }
+
+    .project img {
+      width: 100%;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .project img:hover {
+      transform: scale(0.95);
+    }
+
+    a {
+      color: #ce2d7d;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    #resume a {
+      display: inline-block;
+      background-color: #d63384;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    #resume a:hover {
+      background-color: #b92d6d;
+    }
+
+    footer {
+      background-color: #f39eb3;
+      border: 2px solid black;
+      border-radius: 10px;
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #333;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Maneesha K</h1>
+    <p>Web Developer | Creative Thinker | Lifelong Learner</p>
+  </header>
+
+  <section id="about">
+    <div class="section-heading">About Me</div>
+    <div class="section-content">
+      <img src="myphoto.jpeg" alt="My Photo" />
+      <p>Hi! I'm Maneesha, a passionate developer with experience in building web applications using HTML, CSS, and JavaScript. I enjoy solving problems and designing user-friendly interfaces.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-heading">Skills</div>
+    <div class="section-content">
+      <ul>
+        <li>HTML5 & CSS3</li>
+        <li>JavaScript</li>
+        <li>Python (Basics)</li>
+        <li>C programming (Basics)</li>
+        <li>Frontend Developer</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-heading">Projects</div>
+    <div class="section-content">
+      <div class="project">
+        <h3>Landing Page</h3>
+        <div class="project-image-wrapper">
+          <img src="project1.png" alt="Landing Page Screenshot" />
+        </div>
+        <p>A clean and responsive landing page for a fashion brand.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <div class="section-heading">Resume</div>
+    <div class="section-content">
+      <a href="Maneesha_Resume.pdf" download>Download My Resume (PDF)</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-heading">Contact</div>
+    <div class="section-content">
+      <p>Email: <a href="mailto:maneesha.k2005@gmail.com">maneesha.k2005@gmail.com</a></p>
+      <p>Phone: <a href="tel:+919976086659">+91 9976086659</a></p>
+      <p>LinkedIn: 
+        <a href="https://www.linkedin.com/in/maneesha-krishnakumar-0110bb290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+          https://www.linkedin.com/in/maneesha-krishnakumar
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MaNeesha. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

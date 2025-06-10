@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dress Diary - Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: url(bg1.jpg) no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            font-size: 32px;
+            font-weight: bold;
+            padding: 25px;
+            background-color: #90e2f7;
+            border-radius: 5px;
+            border: 2px solid black;
+            margin: 20px;
+
+        }
+
+        h3, h4, h5 {
+            margin: 10px 30px;
+        }
+
+        #category {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            padding: 20px;
+            transition: all 0.5s ease-in-out;
+        }
+
+        #category:hover .dress {
+            transform: scale(0.95);
+        }
+
+        #category .dress:hover {
+            transform: scale(1.05) rotate(2deg);
+            background-color: #f59cd0;
+            box-shadow: 5px 5px 10px rgb(136, 131, 131);
+        }
+
+        .dress {
+            width: 250px;
+            border: 3px solid black;
+            border-radius: 20px;
+            padding: 10px;
+            background-color: #9eddec;
+            transition: transform 0.4s ease, background-color 0.3s ease;
+        }
+
+        .dress img {
+            width: 170px;
+            height: 270px;
+            border-radius: 20px;
+            border: 2px solid black;
+        }
+
+       
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #6cc6dd;
+            border-radius: 10px;
+            font-weight: bold;
+            border: 2px solid black;
+            
+            
+        }
+    </style>
+</head>
+<body>
+
+    <header>The Dress Diary</header>
+
+    <h3>Designed to flatter. Made to love :)</h3>
+    <h4>
+        Welcome to The Dress Diary, your go-to destination for stylish and comfortable dresses that suit every occasion.
+        From everyday casuals to festive glam, we bring you carefully curated outfits that help you express your personality with confidence and charm.
+        Every dress in our collection is like a page from a diary — unique, beautiful, and made just for you.
+    </h4> 
+
+    <h2>New styles just dropped — Explore Now!</h2>
+
+    <div id="category">
+        <div class="dress">
+            <h3>Party Wear</h3>
+            <img src="western.jpg" alt="Party Wear">
+        </div>
+        <div class="dress">
+            <h3>Saree</h3>
+            <img src="saree.jpg" alt="Saree">
+        </div>
+        <div class="dress">
+            <h3>Ethnic Wear</h3>
+            <img src="chudi.jpg" alt="Ethnic Wear">
+        </div>
+        <div class="dress">
+            <h3>Casuals</h3>
+            <img src="casuals.jpg" alt="Casuals">
+        </div>
+        <div class="dress">
+            <h3>Lehenga</h3>
+            <img src="lehenga.jpg" alt="Lehenga">
+        </div>
+        <div class="dress">
+            <h3>Night Suit</h3>
+            <img src="nightsuite.jpg" alt="Night Suit">
+        </div>
+        
+    </div>
+
+    <footer>Contact us: dressdiary.online@gmail.com</footer>
+
+</body>
+</html>
